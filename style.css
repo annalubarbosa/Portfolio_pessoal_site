@@ -240,6 +240,11 @@ body.dark-mode {
   text-align: center;
  
 }
+
+  .hero .hero-content .hero-subtitle {
+    color: #9d4edd;
+  } 
+
 @media (min-width: 1024px) {
   .hero-content {
     text-align: left;
@@ -361,14 +366,17 @@ body.dark-mode {
 }
 .about-stats .stat-label {
   font-size: 0.875rem;
-  color: var(--color-text-secondary);
+  color: #7b2cbf;
   font-weight: 500;
 }
 
 /* ===== SEÇÃO HABILIDADES ===== */
 .skills {
   padding: 5rem 0;
-  background: #e0aaff;
+  background: #240046;
+}
+.skills .container .section-title{
+  color: white;
 }
 .skills-grid {
   display: grid;
@@ -421,7 +429,7 @@ body.dark-mode {
 /* ===== SEÇÃO PROJETOS ===== */
 .projects {
   padding: 5rem 0;
-  background: #e0aaff ;
+  background: #240046 ;
 }
 .projects .project-grid {
   display: grid;
@@ -469,6 +477,8 @@ body.dark-mode {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
+
 .project-card .project-content h3 {
   font-size: 1.25rem;
   font-weight: 600;
@@ -512,7 +522,7 @@ body.dark-mode {
 /* ===== SEÇÃO EXPERIÊNCIA ===== */
 .experience {
   padding: 5rem 0;
-  background: #e0aaff;
+  background: #9d4edd;
 }
 
 .timeline {
@@ -749,3 +759,4 @@ body.dark-mode {
 html {
   scroll-padding-top: 80px;
 }
+
